@@ -4,6 +4,15 @@ data, and interfacing with ROS.
 
 See the `README.md` in each subdirectory for details.
 
+## Installation
+
+There are a few packages that you will need to install:
+
+ sudo apt-get install ros-melodic-ouster-driver
+
+ sudo apt-get install dnsmasq
+
+
 ## Steve's Directions
 
 So ouster gives you some tools to set up a direct connection to the sensor from you computer. I'd argue these are a bit obtuse and they should really provide a set of scripts to set this up automatically as a daemon. However, since I am also using this as a development tool, I don't want this always running in the background on my machines so I provide the directions below to setup the network connection.
